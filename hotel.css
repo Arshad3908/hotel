@@ -1,0 +1,77 @@
+    /* CSS styles for the website */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://wallpaperaccess.com/full/86289.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+  
+      .welcome-image {
+        height: 500px;
+        background-image: url('https://www.fortsutterhotel.com/site/assets/files/2874/fortsutterfinalsunset.1800x1100.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+  
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+      }
+  
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+      }
+  
+      .video {
+        margin-top: 20px;
+      }
+  
+      .signup-form {
+        margin-top: 20px;
+        max-width: 300px;
+      }
+  
+      .signup-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #3102eb;
+        color: #fff;
+      }
+  
+      .signup-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #3102eb;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+  
+      /* Media queries for mobile responsiveness */
+      @media (max-width: 768px) {
+        .welcome-image {
+          height: 200px;
+        }
+  
+        .gallery img {
+          max-width: 100%;
+        }
+  
+        .signup-form input,
+        .signup-form button {
+          max-width: none;
+        }
+      }
